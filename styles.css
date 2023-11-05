@@ -6,7 +6,7 @@ body, div {
 #navigation-control-container {
   background-color: rgb(45, 41, 43);
   width: 50px;
-  height: 200px;
+  height: 200px; /* 200px for 50px per clickable (4 * 50px) */
   position: fixed;
   border-radius: 30px;
   right: 10px;
