@@ -1,0 +1,46 @@
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+#navigation-control-container {
+  background-color: rgb(45, 41, 43);
+  width: 50px;
+  height: 200px;
+  position: fixed;
+  border-radius: 30px;
+  right: 10px;
+  top: calc(50% - 100px); /* 100px for half the height */
+}
+
+.clickable {
+  background-color: rgba(0,0,0,0);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 5px 5px 10px 5px;
+  position: relative;
+  border: 0;
+  display: block;
+}
+
+.clickable svg {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  fill: white;
+}
+
+#dot {
+  background-color: rgb(246, 191, 80);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  top: 5px;
+  left: 5px;
+  border: 0;
+  position: absolute;
+  transition: top 0.2s ease-in-out;
+}
